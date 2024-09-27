@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#first {
+    color:darkcyan ;
+}
+.bigger{
+    font-size: 24pt;
+}
+.dark {
+    background-color:aquamarine;
+}
+.green {
+    color:darksalmon;
+}
