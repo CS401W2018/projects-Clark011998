@@ -1,13 +1,25 @@
 body{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    color:rgb(17, 0, 255); 
-    background-image: url('bckgrndImg.jpg') ;
+    color:rgb(64, 52, 236); 
+    background-image: url('tagumbckgrnd.jpg') ;
 }
-
+main{
+    font-size: larger;
+    color: rgb(128, 126, 255);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url('tagumLogo.png'); 
+    
+}
+.list{
+    list-style-image: url('pin.png');
+}
 nav a{
     color:rgb(32, 16, 47)
 }
 .current {
-    color:bisque
-}
+    color:rgb(189, 187, 183)
+} 
+
+
