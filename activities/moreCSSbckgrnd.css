@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+#wrapper{
+    width: 600px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: thin solid #020202;
+}
+header{
+    background-color: rgb(255, 200, 127);
+    width: 70px;
+    margin: 30px auto;
+    padding: 50px 30px 100px 3px;
+}
+header #1 {
+    margin-bottom: 0;
+    border: 5px solid #0011fa; 
+}
+nav{
+    background-color: #aaa;
+    height: 200px;
+}
+figure{
+    border: thick solid #fdf900;
+    width: 600px;
+    padding: 0;
+    
+}
