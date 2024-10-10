@@ -4,7 +4,7 @@ body{
     color:rgb(43, 133, 133)
 }
 #wrapper{
-    width: 600px;
+    width: 600px; 
     margin: 0 auto;
     background-color: antiquewhite;
     border: thick solid #020202;
@@ -18,7 +18,7 @@ header{
 }
 header #1 {
     margin-bottom: 0;
-    border: 10px solid #0011fa; 
+    border: 10px solid #0011fa;  
 }
 nav{
     background-color: #aaa;
