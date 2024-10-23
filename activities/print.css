@@ -1,0 +1,39 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    background-color: blue;
+    
+}
+header h1{
+    margin: 0;
+
+}
+nav a{
+    display: block;
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: none;
+}
+.row{
+    display: flex;
+    
+}
+.laie {
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 10px 8px 3px 0 rgba(50, 50, 50, 0.5);
+    margin: 10px;
+
+}
+.laie img{
+    width: 100%;
+
+}
