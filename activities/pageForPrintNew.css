@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: blue;
+    
+}
+header h1{
+    margin: 0;
+
+}
+nav a{
+    display: block;
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline; 
+}
+nav{
+    background-color: rgb(117, 155, 155);
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+     
+}
+.laie {
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 10px 8px 3px 0 rgba(50, 50, 50, 0.5);
+    margin: 10px;
+
+}
+.laie img{
+    width: 100%;
+
+}
+@media only screen and (max-width: 650px) {
+    body{
+        background-color:cornsilk;
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+    nav a{
+        border-bottom:thin solid beige;
+        padding-left: 30px;
+    }
+    .card{
+        width: 100%;
+        margin: 10px;
+    }
+    .main-card{
+        order: -1;
+    }
+    .laie {
+        width: 95%;
+        margin: 10px;
+    }
+}
