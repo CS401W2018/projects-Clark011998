@@ -10,7 +10,7 @@ header h1{
 
 }
 nav a{
-    display: block;
+    display: block; 
     padding: 10px 5px;
     color: rgb(255, 255, 255);
     text-decoration: none;
