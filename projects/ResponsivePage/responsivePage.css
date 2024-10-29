@@ -25,33 +25,44 @@ nav{
 }
 .sidebar{
     display: flex;
+    
     padding: 20px;
+    
 
 }
 .mainrow{
+    
     border-radius: 10px ;
     display: flex;   
     flex-flow: row wrap;
     background-color: rgb(196, 246, 248); 
-    width: 200px;
+    width: 450px;
+    height: 800px;
     padding: 20px;
     
+}
+.mainrow img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
 }
 .row{
     display: flex;
     justify-content: space-between;
-    flex: wrap;
+    
 
      
 }
-.laie {
+.odin {
     width: 250px;
     border: thin solid black;
     box-shadow: 10px 8px 3px 0 rgba(50, 50, 50, 0.5);
     margin: 10px;
 
 }
-.laie img{
+.odin img{
     width: 100%;
 
 }
@@ -78,8 +89,13 @@ nav{
     .main-card{
         order: -1;
     }
-    .laie {
+    .odin {
         width: 95%;
         margin: 10px;
     }
+    .sidebar {
+        flex-direction: column-reverse;
+    }
+  
+    
 }
