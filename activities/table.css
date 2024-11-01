@@ -1,3 +1,29 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.schedule {
+    border:black thin solid;
+    margin: 5px auto;
+    caption-side: top;
+    border-spacing: 0;
+    border-collapse: collapse;
 }
+.schedule thead {
+    background-color: rgba(9, 5, 252, 0.445);
+}
+.schedule tfoot {
+    background-color: rgba(9, 5, 252, 0.445);
+}
+.schedule tbody tr:nth-child(4){
+    background-color: rgb(226, 209, 189);
+}
+.schedule tbody tr:nth-child(1){
+    background-color: rgb(226, 209, 189);
+}
+/*.schedule td, .schedule th{
+    border:black thin solid;
+    padding: 10px;
+}*/
+/*.schedule th{
+    border:black thin solid;
+} we can do either this one or the top on this one*/

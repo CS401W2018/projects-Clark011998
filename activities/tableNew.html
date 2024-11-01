@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Tables</title>
+</head>
+<body>
+    <header>
+        <h1>Tables</h1>
+    </header>
+    <nav>
+        <a href="#">Sample Link</a>
+        <hr>
+    </nav>
+    <main>
+        <table class= "schedule">
+            <caption>My Class Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Dept.</th><th>Number</th><th>Time</th> <th>Location</th><th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Computer Engineering Classes</th> 
+                </tr>
+                <tr>
+                    <td>IT</td><td>240</td><td>11am</td> <td rowspan="2">P3</td><td>3</td>
+                </tr>
+                <tr>
+                    <td>IT</td><td>280</td><td>12pm</td><td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="5">Pacific Island Studies</th>
+                </tr>
+                <tr>
+                    <td>PAIS</td><td>105</td><td>11am</td> <td rowspan="2">Stake Center</td><td>3</td>
+                </tr>
+                <tr>
+                    <td>PAIS</td><td>200</td><td>12pm</td><td>3</td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4" id="total-credits">Total Credits:</th>
+                    <td headers="total-credits">12</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <h2>Engagement - 11/01/24</h2>
+        <h3>1. Why don't we use the border property?</h3>
+        <p></p>
+        <h3>2. What is the easiest way to color every other row a different color?</h3>
+        <p></p>
+        <h3>3. When should we use a table?</h3>
+        <p></p>
+    </main>
+    
+    <footer>
+        &copy; Clark Jules Cabrera, 2024
+    </footer>
+</body>
+</html>
