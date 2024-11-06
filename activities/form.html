@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <header>
+        <h1>Fill out this Form:</h1>
+   </header> 
+   <nav>
+    <a href="#">Sample link</a>
+   </nav>
+   <br>
+   <main>
+        <form action="processing.html" method="post">
+            First Name: <input type="text" name="first" value="Clark" required><br><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name"><br><br>
+            Password: <input type="password" name="pass" required><br><br>
+            Email:<input type="email" required><br><br>
+            Date: <input type="date" required><br><br>
+            <input type="checkbox" name="remember" checked> Remember me <br><br>
+            Class: <br>
+            <input type="radio" name = "class" value="freshman" required>Freshman <br>
+            <input type="radio" name = "class" value="sophomore">Sophomore <br>
+            <input type="radio" name = "class" value="junior">Junior <br>
+            <input type="radio" name = "class" value="senior">Senior <br>
+            <input type="submit">
+            
+        </form>
+        <hr>
+        <h2>Engagement - 11/06/2024 - Form</h2>
+        <h3>1. The form tag has an "action" attribute. What does it do?</h3>
+        <p> It takes you to another site where the details that you put will be viewed. It takes all the information in another site. </p>
+        <h3>2. The form tag has a "method" attribute. What does it do?</h3>
+        <p> Inside the "method" attribute is we can either use post or get as the functions. It is also specifies how the form data will be sent to te server when the user wants to submit it. </p>
+        <h3>3. What is the difference between a "POST" and a "GET"?</h3>
+        <p> We can use POST for submitting data securely. GET is for retrieving and querying data. Reminder, that if we use POST, it does not mean that is 100% secured, it does not act as the security. </p>
+   </main>
+   <hr>
+   <footer>
+        &copy; Clark Jules Cabrera, 2024
+   </footer>
+</body>
+</html>
