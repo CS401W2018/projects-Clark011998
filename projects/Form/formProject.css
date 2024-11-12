@@ -19,17 +19,17 @@ legend{
     border:black thin solid;
 }
 textarea{
-    border-radius: 7px;
+    border-radius: 7px;  
     border: 0;
     padding: 10px;
     font-size: 1.2em;
-    border-bottom: rgb(167, 9, 9) thin solid;
+    border-bottom: rgb(247, 125, 125) thin solid;
     
 
 
 }
 textarea:focus{
-    background-color: rgb(65, 62, 59);
+    background-color: rgb(255, 239, 223);
 }
 .form-row, .check-row{
     display: flex;
@@ -62,7 +62,7 @@ input:not([type = "submit"]){
     border-bottom: black thin solid;
 }
 input:not([type = "submit"]):focus{
-    background-color: rgb(175, 169, 159);
+    background-color: rgb(228, 221, 208);
 }
 
 @media only screen and (max-width: 600px){
