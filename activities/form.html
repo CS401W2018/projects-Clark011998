@@ -11,14 +11,14 @@
         <h1>Fill out this Form:</h1>
    </header> 
    <nav>
-    <a href="#">Sample link</a>
+    <a href="#">Sample link</a> 
    </nav>
    <br>
    <main>
-        <form action="processing.html" method="post">
-            First Name: <input type="text" name="first" value="Clark" required><br><br>
-            Last Name: <input type="text" name="last" placeholder="Last Name"><br><br>
-            Password: <input type="password" name="pass" required><br><br>
+        <form action="processing.html" method="post" id="myForm">
+            First Name: <input type="text" id="firstName" name="first" value="Clark" required><br><br>
+            Last Name: <input type="text" id="lastName" name="last" placeholder="Last Name"><br><br>
+            Password: <input type="password" id="password" name="pass" required><br><br>
             Email:<input type="email" required><br><br>
             Date: <input type="date" required><br><br>
             <input type="checkbox" name="remember" checked> Remember me <br><br>
@@ -43,5 +43,15 @@
    <footer>
         &copy; Clark Jules Cabrera, 2024
    </footer>
+   <script>
+          document.getElementById('myForm').addEventListener('submit' , function(event){
+               event.preventDefault();
+               const first = document.getElementById('firstName').value;
+               const last = document.getElementById('lastName').value;
+               console.log(first);
+               console.log(last);
+               alert("Form Submitted");
+          })
+   </script>
 </body>
 </html>
