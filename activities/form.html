@@ -13,8 +13,9 @@
    <nav>
     <a href="#">Sample link</a> 
    </nav>
-   <br>
+   <br> 
    <main>
+        <div id="message"></div>
         <form action="processing.html" method="post" id="myForm">
             First Name: <input type="text" id="firstName" name="first" value="Clark" required><br><br>
             Last Name: <input type="text" id="lastName" name="last" placeholder="Last Name"><br><br>
@@ -31,29 +32,17 @@
             
         </form>
         <hr>
-        <h2>Engagement - 11/13/2024 - Form Processing</h2>
-        <h3>1. What is JavaScript? How did it get its name?</h3>
-        <p> JavaScript is another programming language. The name came from the company called Sun Microsystems. </p>
-        <h3>2. What are the two ways you can run JavaScript?</h3>
-        <p> It could be inside the browser when we installed it. And also with Node.js </p>
-        <h3>3. What was the most popular front-end js library?</h3>
-        <p>jQuery  </p>
-        <h3>4. What is the most popular front-end js library today?</h3>
-        <p> React </p>
+        <h2>Engagement - 11/15/2024 - Form Processing with AJAX</h2>
+        <h3>1. What is AJAX?</h3>
+        <p> Asynchronous JavaScript and XML is a web development technique that is used to creadte dynamic and interactive user experiences by turning on the web pages to update content without the need to reload the page. </p>
+        <h3>2. Why do you put your JS Code in a separate file?</h3>
+        <p>It keeps our codes look clean, maintainable, and we could work easily. It also improves performances, and it is a fundamental practice in modern web development.  </p>
+     
    </main>
    <hr>
    <footer>
         &copy; Clark Jules Cabrera, 2024
    </footer>
-   <script>
-          document.getElementById('myForm').addEventListener('submit' , function(event){
-               event.preventDefault();
-               const first = document.getElementById('firstName').value;
-               const last = document.getElementById('lastName').value;
-               console.log(first);
-               console.log(last);
-               alert("Form Submitted");
-          })
-   </script>
+   <script src="form.js"></script>
 </body>
 </html>
