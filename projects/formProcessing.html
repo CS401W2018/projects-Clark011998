@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="formProcessing.css">
+</head>
+<body>
+   <header>
+        <h1>Fill out this Form:</h1>
+   </header> 
+   <nav>
+    <a href="#">Sample link</a> 
+   </nav>
+   <br> 
+   <main>
+        <form action="processing.html" method="post">
+            <fieldset>
+            <legend>Sign Up</legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label> 
+                <input type="text" id="fname" name="first" value="Clark" required>
+            </div>
+            <div class="form-row">
+              <label for="lname">Last Name:</label> 
+              <input type="text" id="lname" name="last" placeholder="Last Name">
+            </div>
+            <div class="form-row">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="100" required>
+            </div>
+            <div class="form-row">
+                Gender:
+                <label><input type="radio" name="gender" value="Male" required>Male</label>
+                <label><input type="radio" name="gender" value="Female" required>Female</label>
+
+            </div>
+            <div class="form-row">
+                <label for="pass">Password:</label> 
+                <input type="password" id="pass" name="pass" required>
+
+            
+            
+            </div>
+            <div class="form-row">
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-row"> 
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1(123)456-7890" pattern="^\+1\(\d{3}\)\d{3}-\d{4}$">
+            </div>
+            <div class="form-row">
+                 <label for="date">Date:</label> 
+                 <input type="date" id="date" name="date" required>
+            </div>
+            <div class="spacer">
+                <input type="checkbox" name="remember" checked> Remember me 
+            </div>
+            
+            <div class="form-row">   
+                Class: 
+                <label><input type="radio" name = "class" value="freshman" required>Freshman</label>
+                <label><input type="radio" name = "class" value="sophomore">Sophomore </label>
+                <label><input type="radio" name = "class" value="junior">Junior</label> 
+                <label><input type="radio" name = "class" value="senior">Senior </label>
+                
+            </div>
+            <div class="form-row">
+                <input type="submit">
+            </div>
+            <div class = "form-row">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="" disabled selected>Select a state</option>
+                    <option value="CA">California</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="ID">Idaho</option>
+                </select>
+            </div>
+            </fieldset>
+            <br> 
+            <fieldset>
+                <legend>Terms and Conditions</legend>
+                <label><input type="checkbox" name="agree" id="agree">By clicking the button, you agree to let us use the information given above.</label>
+            </fieldset>
+        </form>
+       <br>
+       <hr>
+      
+   </main>
+   <hr>
+   <footer>
+        &copy; Clark Jules Cabrera, 2024
+   </footer>
+</body>
+</html>
