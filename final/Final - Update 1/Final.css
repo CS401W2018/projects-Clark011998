@@ -1,0 +1,27 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:cornsilk;
+}
+nav a{
+   
+    background-color:rgba(241, 1, 1, 0.548); 
+    color: rgb(255, 255, 255);
+    border-bottom: thin solid beige;
+    padding: 10px 20px;
+    margin: 5px;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    text-transform: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav a:hover{
+    color: rgb(29, 114, 117);
+    background-color: beige;
+    
+}
+.flex-container{
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-around;
+
+}
