@@ -1,0 +1,125 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:cornsilk;
+}
+nav a{
+   
+    background-color:rgba(240, 91, 6, 0.548); 
+    color: rgb(255, 255, 255);
+    border-bottom: thin solid rgb(196, 196, 196);
+    padding: 10px 20px;
+    margin: 5px;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    text-transform: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    max-width: auto;
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+    border-radius: 10px;
+}
+nav a:hover{
+    color: rgb(24, 116, 121);
+    background-color: rgba(255, 255, 255, 0.89);
+    
+}
+.current {
+    color:rgb(104, 255, 242);
+} 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+} 
+
+.sidebar{
+    
+    max-width: auto;
+    
+    order: 0;
+    
+
+}
+.mainrow{
+    width: 400px;
+    order: 1;
+    margin-left: 20px;
+    border: thin solid black;
+    border-radius: 10px;
+    background-color: white;
+    
+
+}    
+.mainrow img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.schedule {
+    border:black thin solid;
+    margin: 5px auto;
+    caption-side: top;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.schedule thead {
+    background-color: rgba(69, 207, 241, 0.705);
+}
+.schedule tfoot {
+    background-color: rgba(69, 207, 241, 0.705);
+}
+.schedule tbody tr:nth-child(odd){
+    background-color: rgb(226, 209, 189);
+}
+table{
+    width: 100%;
+
+} 
+
+@media (max-width: 760px){
+    body{
+        font-size: 16px;
+    }
+    nav a{
+        display: block;
+        padding: 8px 10px;
+        margin: 2px 0;
+    }
+    .flex-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sidebar {
+        max-width: auto;
+        order: 0;
+    }
+    .mainrow {
+        width: 100%;
+    }
+    table{
+        font-size: 14px;
+        overflow-x: auto;
+    }
+    .schedule{
+        margin: 10px 0;
+    }
+    .schedule caption{
+        font-size: 16px;
+    }
+    .schedule tbody tr:nth-child(odd){
+        background-color: rgb(245, 245, 245);
+    }
+}
