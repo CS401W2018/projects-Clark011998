@@ -88,6 +88,62 @@ table{
     width: 100%;
 
 } 
+.last{
+    background-image: url('ball.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    height: 60px;
+}
+.border{
+    border: rgb(252, 134, 0) thin solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    max-width: 100%;
+}
+figure img{
+    width: 100%;
+    height: auto;
+}
+.form-row, .check-row{
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px; 
+    align-items: center;
+}
+input[type = "submit"]{
+    background-color:rgb(2, 48, 48) ;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+input[type = "submit"]:hover{
+    background-color: bisque;
+}
+input:not([type = "submit"]){
+    padding: 10px;
+    font-size: 1.2em;
+    
+    border-radius: 5px;
+    border: 0;
+    border-bottom: black thin solid;
+}
+input:not([type = "submit"]):focus{
+    background-color: blanchedalmond;
+}
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green;
+}
+.color{
+    background-color: rgba(255, 204, 146, 0.842);
+}
 
 @media (max-width: 760px){
     body{
@@ -95,11 +151,12 @@ table{
     }
     nav a{
         display: block;
-        padding: 8px 10px;
+        padding: 12px 20px;
         margin: 2px 0;
+        font-size: 18px;
     }
     .flex-container{
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
     .sidebar {
@@ -108,18 +165,35 @@ table{
     }
     .mainrow {
         width: 100%;
+    
+    }
+    .mainrow img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
     table{
+        width: 100%;
         font-size: 14px;
         overflow-x: auto;
+        display: block;
     }
     .schedule{
         margin: 10px 0;
     }
     .schedule caption{
         font-size: 16px;
+        text-align: center;
     }
     .schedule tbody tr:nth-child(odd){
         background-color: rgb(245, 245, 245);
     }
+    .border{
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    .form-row, .check-row{
+        flex-direction: column;
+    }
 }
+ 
