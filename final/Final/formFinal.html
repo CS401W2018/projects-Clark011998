@@ -10,19 +10,19 @@
    <header>
         <h1>Get a chance to win a ticket for an NBA game!</h1>
    </header> 
-   <nav class="flex-container">
+   <nav class="flex-container"> 
         <a href="Final.html">Home Page</a>
         <a href="Final1.html">Basketball's Founding Father</a>
         <a href="Final2.html">Basketball's First Game</a>
         <a href="Final3.html">Basketball all over the World</a>
-        <a href="#">Basketball over the years</a>
-        <a href="#">Noted Basketball Players</a>
+        <a href="Final4.html">Basketball over the years</a>
+        <a href="Final5.html">Noted Basketball Players</a>
         <a href="formFinal.html"  class="current">Win a ticket for NBA game!</a>
         
     </nav>
    <br> 
    <main>
-    <form action="processing.html" method="post">
+    <form id="myForm">
         <fieldset class="color">
         <legend>Sign Up</legend>
         <div class="form-row">
@@ -89,14 +89,19 @@
         </fieldset>
     </form>
    <br>
+   <div id="message" style="display: none;">
+    <h3>Thank your for filling out the form! We hope you win the ticket!</h3>
+   </div>
+
    <hr>
   
       
       
    </main>
-   <hr>
-   <footer>
+   
+   <footer class="last">
         &copy; Clark Jules Cabrera, 2024
    </footer>
+   <script src="formFinal.js"></script>
 </body>
 </html>
