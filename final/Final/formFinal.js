@@ -19,7 +19,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
         if (genderOptions[i].checked) {
             selectedGender = genderOptions[i].value;
             break;
-        }
+        } 
     }
 
     
@@ -67,7 +67,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
 
     
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "formFinal.json", true); 
+    xhr.open("GET", "formFinal.json", true); 
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
     xhr.onreadystatechange = function () {
